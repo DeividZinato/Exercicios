@@ -1,0 +1,145 @@
+* { /* redefine os padroes da pagina no google e aplica seu proprio padrao*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #3b3b3b;
+    color: white;
+    padding: 16px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+header li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    background-color: #7c8f7e;
+    color: #ffffff;
+    display: inline-block;
+    margin-inline: 45%;
+    border-radius: 20%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img {
+    /*height: 180px*/
+    width: 100%;
+}
+
+.article article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 
+.article article{
+    margin-bottom: 16px;
+}
+
+.article article a{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 20%;
+}
+
+.article article a:hover{
+    text-decoration: underline;
+}
+
+.article p,
+.article a{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.article h3 {
+    font-size: 32px;
+}
+
+section h2{
+    font-size: 48px;
+}
+
+#food{
+    background-color: #f0be7e;
+}
+
+#food .article article a{
+    background-color: #f59629;
+}
+
+#food .container h2{
+    background-color: #f59629;
+}
+
+#games{
+    background-color: #81daf5;
+}
+
+#games .article article a{
+    background-color: #1990f1;
+}
+
+#games .container h2{
+    background-color: #1990f1;
+}
+
+#film{
+    background-color: #70b95a;
+}
+
+#film .article article a{
+    background-color: #286116;
+}
+
+#film .container h2{
+    background-color: #286116;
+}
+
+#places{
+    background-color: #f7e26e;
+}
+
+#places .article article a{
+    background-color: #918a30;
+}
+
+#places .container h2{
+    background-color: #918a30;
+}
+
